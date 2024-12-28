@@ -294,43 +294,43 @@
 
 
 
-#include<iostream>
-using namespace std;
-int main(){
-    cout<<"enter the size of array 1: ";
-    int n;
-    cin>>n;
-    int arr1[n];
-    int arr2[n];
-    cout<<"enter the elements of array 1: "<<endl;
-    for(int i=0;i<n;i++){
-        cin>>arr1[i];
-    }
-    cout<<"enter the elements of array 2: "<<endl;
-    for(int i=0;i<n;i++){
-        cin>>arr2[i];
-    }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     cout<<"enter the size of array 1: ";
+//     int n;
+//     cin>>n;
+//     int arr1[n];
+//     int arr2[n];
+//     cout<<"enter the elements of array 1: "<<endl;
+//     for(int i=0;i<n;i++){
+//         cin>>arr1[i];
+//     }
+//     cout<<"enter the elements of array 2: "<<endl;
+//     for(int i=0;i<n;i++){
+//         cin>>arr2[i];
+//     }
     
-    int arr[n];
-    for(int i=0;i<n;i++){
-        arr[i]=arr1[n-i-1];
-    }
-    for(int i=0;i<n;i++){
-        arr1[i]=arr2[n-i-1];
-    }
-    for(int i=0;i<n;i++){
-        arr2[i]=arr[i];
-    }
+//     int arr[n];
+//     for(int i=0;i<n;i++){
+//         arr[i]=arr1[n-i-1];
+//     }
+//     for(int i=0;i<n;i++){
+//         arr1[i]=arr2[n-i-1];
+//     }
+//     for(int i=0;i<n;i++){
+//         arr2[i]=arr[i];
+//     }
     
-    cout<<"first elements are: "<<endl;
-    for(int i=0;i<n;i++){
-        cout<<arr1[i]<<" ";
-    }
-    cout<<endl;
-    cout<<"second elements are: "<<endl;
-    for(int i=0;i<n;i++){
-        cout<<arr2[i]<<" ";
-    }
+//     cout<<"first elements are: "<<endl;
+//     for(int i=0;i<n;i++){
+//         cout<<arr1[i]<<" ";
+//     }
+//     cout<<endl;
+//     cout<<"second elements are: "<<endl;
+//     for(int i=0;i<n;i++){
+//         cout<<arr2[i]<<" ";
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
